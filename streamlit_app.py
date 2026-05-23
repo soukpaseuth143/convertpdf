@@ -15,14 +15,14 @@ st.write("#ພັດທະນາໂດຍ:ອາຈານ ສຸກປະເສ�
 #api_key = st.sidebar.text_input("ໃສ່ Gemini API Key ຂອງທ່ານ:", type="password")
 api_key = "AIzaSyB7lxUf3lKTELIZr98mia5k1ZnEHPXHpcg"  # ແທນທີ່ເປັນ Key ຂອງທ່ານ
 # 3. ສ່ວນອັບໂຫຼດໄຟລ໌ PDF
-uploaded_file = st.file_uploader("ເລືອກໄຟລ໌ PDF ທີ່ຕ້ອງການແປງ", type=["pdf"])
+uploaded_file = st.file_uploader("ເລືອກຟາຍ PDF ທີ່ຕ້ອງການແປງ", type=["pdf"])
 
 if uploaded_file:
     if not api_key:
         st.warning("⚠️ ກະລຸນາໃສ່ Gemini API Key ຢູ່ແຖບດ້ານຂ້າງ (Sidebar) ກ່ອນເລີ່ມໃຊ້ງານ.")
     else:
         # ກວດສອບຄວາມພ້ອມກ່ອນກົດປຸ່ມ
-        if st.button("🚀 ເລີ່ມແປງໄຟລ໌ດ້ວຍ AI"):
+        if st.button("🚀 ເລີ່ມແປງຟາຍດ້ວຍ AI"):
             # ຕັ້ງຄ່າ Gemini API
             genai.configure(api_key=api_key)
             model = genai.GenerativeModel('gemini-2.5-flash')
