@@ -84,9 +84,9 @@ if uploaded_file:
                 word_io.seek(0)
                 
                 # ສະແດງປຸ່ມດາວໂຫຼດ
-                st.success("✨ ແປງໄຟລ໌ສໍາເລັດຮຽບຮ້ອຍແລ້ວ! ທ່ານສາມາດດາວໂຫຼດໄຟລ໌ໄດ້ຢູ່ລຸ່ມນີ້:")
+                st.success("✨ ແປງຟາຍສໍາເລັດຮຽບຮ້ອຍແລ້ວ! ທ່ານສາມາດດາວໂຫຼດຟາຍໄດ້ຢູ່ລຸ່ມນີ້:")
                 st.download_button(
-                    label="📥 ດາວໂຫຼດໄຟລ໌ Word (.docx)",
+                    label="📥 ດາວໂຫຼດຟາຍ Word (.docx)",
                     data=word_io,
                     file_name=f"Converted_{uploaded_file.name.rsplit('.', 1)[0]}.docx",
                     mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
