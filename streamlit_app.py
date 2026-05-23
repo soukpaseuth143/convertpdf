@@ -9,7 +9,7 @@ st.set_page_config(page_title="AI PDF to Word (Lao)", page_icon="📝", layout="
 
 st.title("📝 AI ປ່ຽນ PDF ເປັນ Word ພາສາລາວ")
 st.write("ແອັບພລິເຄຊັນສໍາລັບແປງຟາຍ PDF ພາສາລາວ ໃຫ້ກາຍເປັນ Word ດ້ວຍ AI ເພື່ອຫຼຸດຜ່ອນບັນຫາສະຫຼະໂດດ ຫຼື ໂຕໜັງສືບໍ່ຖືກຕ້ອງ.")
-st.write("#ພັດທະນາໂດຍ:ອາຈານ ສຸກປະເສີດ ບັນຈົງ ພາກວິຊາວິທະຍາສາດທຳມະຊາດ ຄວທ, ມຊ.#")
+st.write("#ພັດທະນາໂດຍ: ອາຈານ ສຸກປະເສີດ ບັນຈົງ ພາກວິຊາວິທະຍາສາດຄອມພີວເຕີ ຄວທ, ມຊ.#")
 # 2. ສ້າງແຖບດ້ານຂ້າງສໍາລັບໃສ່ API Key
 #st.sidebar.header("🔑 ການຕັ້ງຄ່າ AI")
 #api_key = st.sidebar.text_input("ໃສ່ Gemini API Key ຂອງທ່ານ:", type="password")
