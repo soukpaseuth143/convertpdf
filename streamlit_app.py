@@ -13,7 +13,7 @@ st.write("#ພັດທະນາໂດຍ:ອາຈານ ສຸກປະເສ�
 # 2. ສ້າງແຖບດ້ານຂ້າງສໍາລັບໃສ່ API Key
 #st.sidebar.header("🔑 ການຕັ້ງຄ່າ AI")
 #api_key = st.sidebar.text_input("ໃສ່ Gemini API Key ຂອງທ່ານ:", type="password")
-api_key = "AIzaSyB7lxUf3lKTELIZr98mia5k1ZnEHPXHpcg"  # ແທນທີ່ເປັນ Key ຂອງທ່ານ
+api_key = "AIzaSyD94KVzbEc0Wdz7O9WU4l9zLE8Jsp5RrNE"  # ແທນທີ່ເປັນ Key ຂອງທ່ານ
 # 3. ສ່ວນອັບໂຫຼດໄຟລ໌ PDF
 uploaded_file = st.file_uploader("ເລືອກຟາຍ PDF ທີ່ຕ້ອງການແປງ", type=["pdf"])
 
